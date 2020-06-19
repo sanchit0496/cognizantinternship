@@ -1,0 +1,73 @@
+@CHARSET "ISO-8859-1";
+h1{
+	font-size:300%;
+}
+body{
+	background-color:whitesmoke;
+	
+}
+.navbar {
+  z-index:1000;
+  overflow: hidden;
+  background-color:white;
+  margin-left:-0.8%;
+  margin-top:-2%;
+  width: 102%;
+  box-shadow: -10px 15px 8px -15px #111;   
+  padding:10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 35%;
+  line-height: 10px;
+  border-top:0.5px solid black;
+  font-family: 'Muli', sans-serif;
+  margin:20px;
+}
+
+.navbar a:hover {
+  color: black;
+  border-top:2.5px solid black;
+  font-weight:600;
+}
+img{
+	width:250px;
+	height:250px;
+	margin-left:7%;
+	margin-down:7%;
+	opacity:0.7;
+}
+img:hover{
+	opacity:2;
+}
+div{
+	display:none;
+	font-weight:1000;
+	font-size:350%;
+	font-family:algerian;
+	
+	margin-left:35%;
+	margin-top:1%;
+}
+a:hover + div{
+	display:block;
+}
+b:hover + div{
+	display:block;
+}
+c:hover + div{
+	display:block;
+}
+d:hover + div{
+	display:block;
+}
+
+.heading{
+	font-family:Imprint MT Shadow;
+font-size:50px;
+}
+
